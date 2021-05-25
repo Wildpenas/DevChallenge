@@ -1,4 +1,67 @@
-Contador
-Informe uma data
-DD/MM/AAAA
-Iniciar contagem
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela inicial || Contador</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="main">
+
+        <div class="container">
+
+        <h1>Contador</h1> 
+
+        <form action="#">
+
+            <h3>Informe uma data</h3>
+          
+            <input type="date" name="data" id="txtdata">
+            <a  id="btn" > Iniciar contagem</a>   
+
+            </form>
+
+        </div><!--container-->
+   
+    </section><!--main-->
+
+    <section class="modal">
+
+        
+
+        <div class="top">           
+       
+            <p id="p1">Contador</p>
+            <a href="index.html" id="p2">Reiniciar</a>
+
+        </div><!--top--> 
+
+        <h1>Faltam</h1>
+
+        <div class="container-contador">
+
+           
+            <ul class="contador">
+
+                <li><span class="p4">00</span> <div class="p3">Dia(s)</div> </li>
+                <li><span class="p4">00</span> <div class="p3">Hora(s)</div> </li>
+                <li><span class="p4">00</span> <div class="p3">Minuto(s)</div> </li>
+                <li><span class="p4">00</span> <div class="p3">Segundo(s)</div></li>
+           
+            </ul> <!--contador-->
+
+        </div><!--container-contador-->
+    </section>
+
+   
+
+    <script type="module" src="scrips.js"></script>
+
+    
+</body>
+</html>
