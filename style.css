@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
 
 .main,.modal{
-    height: 100vh;
+    height: 95vh;
     background-color: black;
     width: 100%;
     
@@ -186,6 +187,30 @@ input, .main a{
 .p3{
     color: #21EB00;
 
+
+
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    background:black;
+    font-size:2rem;
+    
+
+
+}
+
+@media (max-width:600px){
+
+    .main,.modal{
+        height: 100vh;
+        overflow:;
+        
+    
+    }
 
 
 
